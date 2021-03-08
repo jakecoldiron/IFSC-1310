@@ -10,6 +10,15 @@ html {
 }
 
 
+/* ---------------Utility Classes--------------- */
+
+
+.container{
+  width:70vw;
+  margin: 40px auto;
+}
+
+
 /* ---------------Global Styles--------------- */
 
 body{
@@ -35,4 +44,89 @@ padding:40px 40px 20px 40px;
 
 /* Top/Bottom  Right/Left */
 padding: 20px 40px;
+}
+
+
+header.primary h1{
+  font-size:3.2rem; 
+  margin: 20px 0;
+}
+
+header.primary h1 a{
+  color:#ffffff;
+  text-decoration:none;
+}
+
+header.primary h2{
+  font-size:2rem;
+  /* Top | Left/Right | Bottom */
+  margin: 20px auto 40px;
+}
+
+header.primary nav{
+  width:70vw;
+  margin:20px auto;
+  max-width:900px;
+}
+
+header.primary nav ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding:0;
+}
+
+header.primary nav ul li{
+  list-style-type:none;
+}
+
+header.primary nav a:link, header.primary nav a:visited{
+color:#fff;  
+text-decoration:none;
+background-color:#000;
+background-color:rgba(0,0,0,.4);
+padding:8px 16px;
+border-radius: 20px;
+transition:.5s;
+}
+
+header.primary nav a:hover, header.primary nav a:active{
+background-color:rgba(0,0,0,.8);
+}
+
+
+#intro{
+  border-bottom: 1px dotted #c0c0c0;
+  padding-bottom:1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query Example */
+
+@media screen and (max-width:690px){
+  
+  header.primary nav ul{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  margin:0 auto;
+}
+  
+  header.primary nav a{
+    display:block;
+  }
+  
+  header.primary nav li{
+    margin-bottom:10px;
+  }  
 }
