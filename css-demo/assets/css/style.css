@@ -38,10 +38,10 @@ color:#ffffff;
 text-shadow:0.5px 0.5px #000000;
 
 /* Long Form* */  
-padding-top:40px;
-padding-right:40px;
-padding-bottom:20px;
-padding-left:40px;
+padding-top:50px;
+padding-right:50px;
+padding-bottom:25px;
+padding-left:50px;
 
 /* T,R,B,L */
 padding:40px 40px 20px 40px;  
@@ -55,12 +55,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 header.primary h1{
-  font-size:3.2rem; 
-  margin: 20px 0;
+  font-size:3rem; 
+  margin: 30px 0;
 }
 
 header.primary h1 a{
-  color:#ffffff;
+  color:white;
   text-decoration:none;
 }
 
@@ -84,12 +84,12 @@ header.primary nav ul{
 }
 
 header.primary nav a:link, header.primary nav a:visited{
-  color:#000000;
+  color:black;
   text-decoration:none;
   background-color:#4997b1;
   padding:8px 16px;
   border-radius:0px 20px;
-  border:1px solid #000000;
+  border:1px solid black;
   transition:.3s;
 }
 
@@ -99,7 +99,7 @@ header.primary nav a:hover, header.primary nav a:active{
 
 #intro{
   border-bottom: 5px solid #68642e;
-  padding-bottom: 1.5em;
+  padding-bottom: 2em;
 }
 
 #intro h2{
@@ -108,7 +108,7 @@ header.primary nav a:hover, header.primary nav a:active{
 }
 
 #intro p{
-  line-height: 1.75em;
+  line-height: 2em;
 }
 
 section#content{
@@ -116,30 +116,30 @@ section#content{
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 5px solid #68642e;
-  padding-bottom: 2.3em;
+  padding-bottom: 2em;
 }
 
 #content article.post{
   width: 30%;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, .4);
   padding: 10px;
-  transition: .3s;
-  font-size: .8rem;
+  transition: .5s;
+  font-size: 1rem;
 }
 
 #content article.post:hover, #content article.post:active{
-  box-shadow: 0px 8px 18px rgba(0, 0, 0, .4);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, .4);
 }
 
 #content article time, #content article figcaption, #content article footer{
-  font-size: .8em;
+  font-size: 1em;
   color: #9C9C9C;
   text-transform:uppercase;
 }
 
 #content .post a:link, #content .post a:visited{
   color:#ff91a4;
-  text-shadow: .3px .3px #000000;
+  text-shadow: .5px .5px black;
 }
 
 #content .post a:hover, #content .post a:active{
@@ -154,8 +154,8 @@ section#content{
 /* Attribute Selector */
 aside[role="complementary"]{
   background-color:#68642e;
-  color: #000000;
-  padding: 2.5em;
+  color: black;
+  padding: 2.1em;
 }
 
 aside .container{
@@ -173,7 +173,7 @@ aside article a:link, aside article a:visited{
   text-shadow: .75px .75px #000000;
   display:block;
   margin-top: .5em;
-  letter-spacing: .6px;
+  letter-spacing: .5px;
 }
 
 aside article a:hover, aside article a:active{
@@ -210,7 +210,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 #additional-elements a:link, #additional-elements a:visited{
   color:#ff91a4;
-  text-shadow: .75px .75px #000000;
+  text-shadow: .8px .8px #000000;
 }
 
 #additional-elements a:hover, #additional-elements a:active{
@@ -218,7 +218,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 #additional-elements p{
-  line-height: 1.75em
+  line-height: 1.8em
 }
 
 #additional-elements h3{
