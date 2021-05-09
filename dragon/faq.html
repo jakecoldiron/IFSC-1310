@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Web Project Starter</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets." />
+  <meta name="author" content="Jake Turner" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header role="banner" class="primary">
+    <h1><a href="index.html"><img src="assets/img/SpaceX.png" width:"20" height:"10" alt="SpaceX" /></a></h1>
+    <h2>First Private Spacecraft to the Space Station</h2>
+    <nav role="navigation">
+      <ul>
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="faq.html">Frequently Asked Questions</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="content" class="container">
+    <h2>Frequently Asked Questions</h2>
+    
+    <h3>Could SpaceX send a Dragon to the Moon?</h3>
+    <p>The Dragon could easily be sent to lunar orbit, but would not be able to land. The Falcon Heavy can throw about 16,000 kilograms (when configured to be expendable) on a trans-lunar injection orbit, so it can send a Dragon 2 capsule to the moon with quite a lot of margin. However, in order to land on a surface you need to slow down from orbital velocity, which requires you to change your velocity by a certain amount (which is called your ∆V, literally "change in velocity"). Dragon 2 carries only a small amount of propellant and can only deliver a small amount of ∆V because of that. The exact amount is less than 500m/s, which doesn't come close to the ~1870 m/s needed to land on the moon. It may be possible to do it with two FH launches but that would require additional technology development.</p>
+    
+    <h3>Can Dragon or Dragon 2 reboost the International Space Station?</h3>
+    <p>In all likelihood, no. There are lots of reasons why this would not work: Dragon does not carry enough fuel to reboost the station, the SuperDraco engines are far too powerful, the docking ports Dragon use are incapable of handling the force, the Dragon would not be firing through the station's center of mass, and the Dragon does not have the necessary connections to provide station Guidance, Navigation, & Control. Current solutions to reboosting work perfectly fine. Using Dragon would be too complicated and requires too much effort, whereas current solutions of reboosting the ISS are perfectly capable of doing so without modification.</p>
+    
+    <h3>Will SuperDraco replace Draco?</h3>
+    <p>No they won't, as they are designed for entirely different applications. Draco engines have a thrust of 400 N and are used for in-orbit manouvering, orbit adjustments, fine guidance, orientation, and deorbiting. SuperDraco engines put out 73,000 N of thrust, that makes them 182.5 times more powerful. In fact, a single SuperDraco engine is more powerful than the Kestrel upper stage engine of Falcon 1. Firing these in proximity to the ISS would likely obliterate the station.</p>
+    <p>Even though they can throttle down to 20% (making them merely 36.5 times as powerful as a Draco), to maintain a steady attitude, you'd likely have to fire at least another engine on the opposite side simultaneously.</p>
+    
+   
+  
+  <aside role="complementary">
+    <div class="container">
+      <article class="widget">
+        <header>
+          <h2>Sample Sidebar Item </h2>
+        </header>
+        <p>Quisque justo erat, varius placerat fermentum vel, iaculis vel ligula. Phasellus et elit purus. Curabitur ipsum enim, scelerisque vitae condimentum ac, cursus eget quam. Nullam volutpat dui ut risus pulvinar at fringilla sem tristique. Nulla facilisi.
+          Donec posuere euismod purus, eu scelerisque risus pellentesque eu. Vestibulum sed tincidunt metus. <a href="#">Read More &raquo;</a></p>
+        <footer>Widget Footer</footer>
+      </article>
+    </div>
+  </aside>
+  <footer id="colophon" role="contentinfo">
+    <h6>&copy; 2020 Jake Turner</h6>
+  </footer>
+</body>
+
+</html>
